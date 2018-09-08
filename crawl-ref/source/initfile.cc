@@ -4174,8 +4174,8 @@ static void _bones_ls(const string &filename, const string name_match,
         }
         else
         {
-            cout << std::setw(10) << std::left << g.name
-                 << "XL" << std::setw(2) << g.xl << " "
+            cout << std::setw(12) << std::left << g.name
+                 << " XL" << std::setw(2) << g.xl << " "
                  << combo_type{species_type(g.species), job_type(g.job)}.abbr()
                  << "\n";
         }
